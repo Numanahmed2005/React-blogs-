@@ -9,7 +9,9 @@ function App() {
   return (
     <>
     <Header> </Header>
+    <div> 
     <Blogs> </Blogs>
+    </div>
     
      
     </>

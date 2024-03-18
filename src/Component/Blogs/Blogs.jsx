@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 
+import profile from '../../assets/Image/profile.png'
 
 
 const Blogs = () => {
@@ -11,7 +12,9 @@ const Blogs = () => {
         .then( data=> setblog(data))
     } , [])
     return (
-        <div>
+        <div className="flex justify-between">
+            <h1 className="text-2xl"> Knowledge cafe </h1>
+             <img src={profile} alt="" />
             
         </div>
     );
