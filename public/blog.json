@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "cover1.jpg",
+      "title": "The Secrets of the Universe",
+      "author": "Alice Johnson",
+      "author_img": "author1.jpg",
+      "img_posted_date": "2024-03-19",
+      "reading_time": "30 minutes",
+      "hashtag": ["science", "universe", "exploration"]
+    },
+    {
+      "id": 2,
+      "cover": "cover2.jpg",
+      "title": "Cooking Adventures",
+      "author": "Bob Smith",
+      "author_img": "author2.jpg",
+      "img_posted_date": "2024-03-18",
+      "reading_time": "25 minutes",
+      "hashtag": ["cooking", "recipes", "food"]
+    },
+    {
+      "id": 3,
+      "cover": "cover3.jpg",
+      "title": "Travel Tales",
+      "author": "Eva Brown",
+      "author_img": "author3.jpg",
+      "img_posted_date": "2024-03-17",
+      "reading_time": "45 minutes",
+      "hashtag": ["travel", "adventure", "explore"]
+    },
+    {
+      "id": 4,
+      "cover": "cover4.jpg",
+      "title": "Artistic Expression",
+      "author": "David Lee",
+      "author_img": "author4.jpg",
+      "img_posted_date": "2024-03-16",
+      "reading_time": "20 minutes",
+      "hashtag": ["art", "creativity", "expression"]
+    },
+    {
+      "id": 5,
+      "cover": "cover5.jpg",
+      "title": "Fitness Fundamentals",
+      "author": "Sophie Miller",
+      "author_img": "author5.jpg",
+      "img_posted_date": "2024-03-15",
+      "reading_time": "40 minutes",
+      "hashtag": ["fitness", "exercise", "health"]
+    }
+  ]
+  
