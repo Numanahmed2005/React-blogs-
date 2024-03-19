@@ -1,9 +1,11 @@
 
 
-const Blog = () => {
+const Blog = ({blog}) => {
+    let { id }= blog
     return (
         <div>
-         <h1> HI </h1>
+            
+         
             
         </div>
     );

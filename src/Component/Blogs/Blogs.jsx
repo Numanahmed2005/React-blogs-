@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 import profile from '../../assets/Image/profile.png'
+import Blog from "../Blog/Blog";
 
 
 const Blogs = () => {
@@ -13,7 +14,10 @@ const Blogs = () => {
     } , [])
     return (
         <div className="w-2/3"> 
-        <h1> hi hello </h1>
+        {
+           blogs.map( blog=> <Blog key={blog.id} blog={blog}> </Blog>)
+        }
+        
             
         </div>
     );
