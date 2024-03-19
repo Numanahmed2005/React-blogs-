@@ -12,9 +12,8 @@ const Blogs = () => {
         .then( data=> setblog(data))
     } , [])
     return (
-        <div className="flex justify-between">
-            <h1 className="text-2xl"> Knowledge cafe </h1>
-             <img src={profile} alt="" />
+        <div className="w-2/3"> 
+        <h1> hi hello </h1>
             
         </div>
     );
