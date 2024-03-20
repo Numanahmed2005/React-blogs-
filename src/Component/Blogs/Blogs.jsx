@@ -14,6 +14,7 @@ const Blogs = () => {
     } , [])
     return (
         <div className="w-2/3"> 
+        <p> length: {blogs.length}</p>
         {
            blogs.map( blog=> <Blog key={blog.id} blog={blog}> </Blog>)
         }
