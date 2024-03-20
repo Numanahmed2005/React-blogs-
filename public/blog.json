@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "cover": "cover1.jpg",
+      "cover": "https://i.ibb.co/gt1dtZc/Screenshot-2024-03-20-172932.png",
       "title": "The Secrets of the Universe",
       "author": "Alice Johnson",
       "author_img": "author1.jpg",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "cover": "cover2.jpg",
+      "cover": "https://i.ibb.co/gt1dtZc/Screenshot-2024-03-20-172932.png",
       "title": "Cooking Adventures",
       "author": "Bob Smith",
       "author_img": "author2.jpg",
@@ -21,7 +21,7 @@
     },
     {
       "id": 3,
-      "cover": "cover3.jpg",
+      "cover": "https://i.ibb.co/gt1dtZc/Screenshot-2024-03-20-172932.png",
       "title": "Travel Tales",
       "author": "Eva Brown",
       "author_img": "author3.jpg",
@@ -31,7 +31,7 @@
     },
     {
       "id": 4,
-      "cover": "cover4.jpg",
+      "cover": "https://i.ibb.co/gt1dtZc/Screenshot-2024-03-20-172932.png",
       "title": "Artistic Expression",
       "author": "David Lee",
       "author_img": "author4.jpg",
@@ -41,7 +41,7 @@
     },
     {
       "id": 5,
-      "cover": "cover5.jpg",
+      "cover": "https://i.ibb.co/gt1dtZc/Screenshot-2024-03-20-172932.png",
       "title": "Fitness Fundamentals",
       "author": "Sophie Miller",
       "author_img": "author5.jpg",
