@@ -1,5 +1,5 @@
 import Bookmarks from "./Bookmarks";
-
+import PropTypes from 'prop-types'
 
 const Bookmark = ({bookmark,redingtime}) => {
      
@@ -19,5 +19,7 @@ const Bookmark = ({bookmark,redingtime}) => {
         </>
     );
 };
+
+Bookmark.propTypes={ bookmark:PropTypes.array,redingtime: PropTypes.number}
 
 export default Bookmark;
