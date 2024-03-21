@@ -12,6 +12,13 @@ function App() {
     setbookmark(newhandle)
     
   }
+  let [ redingtime,setreadingtime]=useState(0)
+  let handlereadingtime=time=>{
+    
+    let newreadingtime = redingtime+ time;
+    setreadingtime(newreadingtime);
+    
+  }
   
   
  
@@ -24,8 +31,8 @@ function App() {
     </header>
     
     <main className='flex mx-12'> 
-    <Blogs clickhandlemark={clickhandlemark}> </Blogs>
-    <Bookmark bookmark={bookmark}> </Bookmark>
+    <Blogs clickhandlemark={clickhandlemark} handlereadingtime={handlereadingtime}> </Blogs>
+    <Bookmark bookmark={bookmark} redingtime={redingtime}> </Bookmark>
      </main>
     
      

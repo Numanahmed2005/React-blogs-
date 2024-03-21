@@ -1,7 +1,7 @@
 import { BsBookmark } from "react-icons/bs";
 import Bookmark from "../Bookmark/Bookmark";
 
-const Blog = ({blog,clickhandlemark}) => {
+const Blog = ({blog,clickhandlemark,handlereadingtime}) => {
     let { cover,author_img,title,hashtag,author,img_posted_date,reading_time }= blog
     return (
         <div className="my-4">
@@ -24,7 +24,7 @@ const Blog = ({blog,clickhandlemark}) => {
             <div><h1 className=" text-4xl"> {title}</h1></div>
             <div> #{hashtag}</div>
          </div>
-         <button  className="text-purple-500">mark as read</button>
+         <button  onClick={()=>handlereadingtime(reading_time)}   className="text-purple-500">mark as read</button>
             
         </div>
     );

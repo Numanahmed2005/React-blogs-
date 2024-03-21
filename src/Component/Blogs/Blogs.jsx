@@ -5,7 +5,7 @@ import profile from '../../assets/Image/profile.png'
 import Blog from "../Blog/Blog";
 
 
-const Blogs = ({clickhandlemark}) => {
+const Blogs = ({clickhandlemark,handlereadingtime}) => {
     let [ blogs , setblog]= useState([]);
     useEffect(()=>{
         fetch('blog.json')
@@ -16,7 +16,7 @@ const Blogs = ({clickhandlemark}) => {
         <div className="w-2/3"> 
         <p> length: {blogs.length}</p>
         {
-           blogs.map( blog=> <Blog key={blog.id} clickhandlemark={clickhandlemark} blog={blog}> </Blog>)
+           blogs.map( blog=> <Blog key={blog.id} clickhandlemark={clickhandlemark} handlereadingtime={handlereadingtime} blog={blog}> </Blog>)
         }
         
             
